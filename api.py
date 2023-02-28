@@ -2,7 +2,7 @@ import requests
 import datetime
 import json
 
-API_KEY = '62f3353e480cca3195d101acb184b20e'
+API_KEY = ''
 
 def get_air_pollution(lat, lon):
     url = f"http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={API_KEY}"
